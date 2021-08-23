@@ -13,8 +13,8 @@ function writePassword() {
 function generatePassword() {
    var length=prompt("How long is your password?")
    var lowercase=confirm("Do you want to includde lower case characters?")
-   var uppercase=confirm("Do you want an upper case?")
-   var numeric=confirm("Do you ")
+   var uppercase=confirm("Do you want an upper case character?")
+   var numeric=confirm("Do you want a numeric character?")
    return "Lisa"
 
 }
