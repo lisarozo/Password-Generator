@@ -12,10 +12,14 @@ function writePassword() {
 }
 function generatePassword() {
    var length=prompt("How long is your password?")
+   if (Number.isNaN(length)
    var lowercase=confirm("Do you want to include lower case characters?")
    var uppercase=confirm("Do you want an upper case character?")
    var numeric=confirm("Do you want a numeric character?")
    return "Lisa"
+// validate 8 > 128 characters on password
+// store different options into an object 
+// Create a function that uses the options 
 
 }
 // Add event listener to generate button
